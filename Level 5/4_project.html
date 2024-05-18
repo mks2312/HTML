@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me form</title>
+</head>
+
+<body>
+    <header id="formHeader">
+        <h1>LET'S CONNECT</h1>
+        <p>Feel free to reach out to me through the contact form below or connect with me on LinkedIn. I'm excited to
+            connect with like-minded professionals, creative individuals, and organizations that value innovation and
+            quality.</p>
+    </header>
+    <form action="/contactMe" method="get">
+        <label for="Name">YOUR NAME* :</label>
+        <input type="text" name="senderName" id="Name" required>
+
+        <label for="Email">YOUR EMAIL* :</label>
+        <input type="email" name="sendermail" id="Email" required>
+
+        <br>
+        <label for="message">PLEASE TELL A BIT ABOUT YOURSELF & YOUR PROJECT :-</label>
+        <textarea name="mssg" id="message" cols="35" rows="15"></textarea>
+        <br>
+
+        <label for="profileLink">Linkedin Profile 🔗 :</label>
+        <input type="url" name="sdrLp" id="profileLink">
+        <br>
+        <input type="submit" value="Send connect request Now!">
+    </form>
+</body>
+
+</html>

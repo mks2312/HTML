@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & iframes</title>
+</head>
+
+<body>
+    <form action="/submit" method="get">
+        Text: <input type="text" placeholder="Enter yr name"> <br>
+        Password: <input type="password">
+        Email: <input type="email" required> <br>
+        Date: <input type="date"> <br>
+        Color: <input type="color"> <br>
+        Range: <input type="range" min="0" max="20" step="4" name="priceRange">
+        File: <input type="file"> <br>
+        <br>
+        TextArea: <textarea cols="30" rows="15">Write about u!</textarea> <br>
+        <br>
+        //Select: <br>
+        <label for="size">Choose yr t-shirt size:</label>
+        <select name="t-shirtSize" id="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+        </select>
+        <br> <br>
+        //Radio: <br>
+        <label for="Apple">Apple</label>
+        <input type="radio" name="fruit" value="apple" id="Apple">
+        <label for="Mango">Mango</label>
+        <input type="radio" name="fruit" value="mango" id="Mango">
+        <label for="Cherry">Cherry</label>
+        <input type="radio" name="fruit" value="mango" id="Cherry">
+        <br> <br>
+        //Checkbox: <br>
+        <label for="AppleC">Apple</label>
+        <input type="checkbox" name="fruit" value="apple" id="AppleC">
+        <label for="MangoC">Mango</label>
+        <input type="checkbox" name="fruit" value="mango" id="MangoC">
+        <label for="CherryC">Cherry</label>
+        <input type="checkbox" name="fruit" value="mango" id="CherryC">
+        <br><br>
+        Button: <button>Click Me!</button> <br>
+        Submit: <input type="submit">
+    </form>
+    <br> <br>
+    <iframe width="480" height="250" src="https://www.youtube.com/embed/rklidcZ-aLU?si=YkeFDi8cyrEtANdK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br> <br>
+    
+    <iframe src="https://en.wikipedia.org/wiki/Val%C3%A8re_Basilica" width="420" height="260"></iframe>
+</body>
+
+</html>
